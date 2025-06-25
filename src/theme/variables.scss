@@ -5,7 +5,7 @@
 :root {
   /** primary **/
   --ion-background-color: #FFE6F7;
-  --ion-color-primary: #3880ff;
+  --ion-color-primary: #992470;
   --ion-color-primary-rgb: 56, 128, 255;
   --ion-color-primary-contrast: #ffffff;
   --ion-color-primary-contrast-rgb: 255, 255, 255;
@@ -84,11 +84,41 @@ ion-item {color: #5f2424; /* Cambia color texto en el titulo de los productos */
 ion-button {color: #000000;/* Cambia color texto de los botones de menu lateral 
 */}
 
+ion-title {
+  font-size: 30px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+.sc-ion-label-md-s>p { 
+color: var(--ion-color-step-600, #000000); /* Cambia el color del texto en la 
+descripcion de los productos */ 
+font-size: 15px; /* Ajustá el tamaño de letra a tu gusto */
+font-family: 'DM Sans', sans-serif; /* Aplicá la fuente */
+} 
 
 
 ion-menu-button {
   color: #000000
 }
+
+
+
+
+@import 
+url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); 
+/* Importa la fuente Dancing Script cursiva desde Google Fonts y la Aplica en 
+ion-title */ 
+ion-title, ion-list-header, ion-label .texto-bebas-neue  
+{ 
+font-family: 'Bebas Neue' 
+} 
+
+ion-label {
+  font-size: 25px;
+}
+
+
 
 @media (prefers-color-scheme: dark) {
   /*
