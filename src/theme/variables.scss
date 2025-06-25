@@ -4,7 +4,7 @@
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
-  --ion-background-color: #3171e0;
+  --ion-background-color: #FFE6F7;
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
   --ion-color-primary-contrast: #ffffff;
@@ -77,8 +77,17 @@
   --ion-color-light-tint: #f5f6f9;
 }
 
+.header-md { --ion-background-color: #992470; --box-shadow:0 2px 4px -1px rgba(251, 250, 250, 0.935)  
+}/* cambia el Color del zocalo de encabezado */ 
+ion-title {color: #ffffff; /* Cambia color texto encabezado */}  
+ion-item {color: #5f2424; /* Cambia color texto en el titulo de los productos */}  
+ion-button {color: #000000;/* Cambia color texto de los botones de menu lateral 
+*/}
+
+
+
 ion-menu-button {
-  color: #ec0ba5
+  color: #000000
 }
 
 @media (prefers-color-scheme: dark) {
