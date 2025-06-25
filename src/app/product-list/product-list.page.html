@@ -3,7 +3,11 @@
     <ion-buttons slot="start">
       <ion-menu-button menu="m1"></ion-menu-button>
     </ion-buttons>
+
     <ion-title>Sabrina Pona Studio</ion-title>
+
+    <ion-title>Productos Cosméticos para uñas</ion-title>
+
   </ion-toolbar>
 </ion-header>
 
@@ -16,7 +20,11 @@
 
   <ion-list>
     <ion-list-header>
+
       <ion-label>Modelos Destacados</ion-label>
+
+      <ion-label>Productos de primera linea</ion-label>
+
     </ion-list-header>
     @for (product of products; track product._id) {
     <ion-item>
@@ -26,6 +34,7 @@
       <ion-label>
         <h2>{{product.name}}</h2>
         <p>{{product.description}}</p>
+        <p><strong>Precio:</strong> ${{product.price}}</p>
       </ion-label>
     </ion-item>
     }
