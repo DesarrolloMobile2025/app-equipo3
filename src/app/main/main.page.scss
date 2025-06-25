@@ -1,0 +1,24 @@
+ion-content {
+  --background: url('https://images.pexels.com/photos/973405/pexels-photo-973405.jpeg?_gl=1*bfkavg*_ga*MTA5MDQyNTY1Ni4xNzQ0MDc2MDY3*_ga_8JE65Q40S6*czE3NTA4MzEwODIkbzMkZzEkdDE3NTA4MzEyMDgkajU5JGwwJGgw') no-repeat center center / cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+ion-button {
+  font-size: 1.2rem;
+  font-weight: bold;
+  
+  color: white;
+  padding: 1.2rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease;
+
+  &:hover {
+    background: #b63b8c;
+  }
+}
